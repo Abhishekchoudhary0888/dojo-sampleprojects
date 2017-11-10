@@ -1,1 +1,1 @@
-# dojo-sampleproject
+# dojo-sampleprojects
