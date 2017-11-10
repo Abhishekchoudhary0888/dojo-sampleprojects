@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tutorial: Hello Dojo!</title>
+</head>
+<body>
+    <div class="click-dom"></div>
+    <script>
+        var dojoConfig = {
+            async: true,
+            packages: [{
+                name: "demo",
+                location: location.pathname.replace(/\/[^/]*$/, '') + '/demo'
+            }]
+        };
+    </script>
+    <script src="dojo/dojo.js"></script>
+    <script>
+        require([
+            'demo/main'
+        ]);
+    </script>
+    </body>
+</html>
